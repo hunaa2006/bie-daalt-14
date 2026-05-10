@@ -1,0 +1,34 @@
+{
+	"id": "c0c35f7c-db4a-4a10-919e-8af9f5cac9a0",
+	"name": "dev",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "userId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "postId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "newPostId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"color": null,
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2026-05-10T16:28:54.219Z",
+	"_postman_exported_using": "Postman/12.9.7"
+}
