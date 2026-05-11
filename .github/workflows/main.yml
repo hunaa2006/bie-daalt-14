@@ -1,0 +1,11 @@
+name: Postman Tests
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Newman
+        run: npm install -g newman
+      - name: Run Tests
+        run: newman run JSONPlaceholder_Collection.json -e Environment.json
